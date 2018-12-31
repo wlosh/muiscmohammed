@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const PREFIX = "1"
+const PREFIX = "f"
 const Util = require('discord.js');
  
 const getYoutubeID = require('get-youtube-id');
@@ -475,7 +475,7 @@ client.on('message', message => {
   if (!message.content.startsWith(PREFIX)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "507978288250093568") return;
+  if (message.author.id !== "475797943480352789") return;
  
 if (message.content.startsWith(PREFIX + 'setstream')) {
   client.user.setGame(argresult, "https://www.twitch.tv/darkknite55");
